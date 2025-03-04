@@ -74,16 +74,9 @@ public class SudokuSolver {
                 {0, 0, 0, 4, 1, 9, 0, 0, 5},
                 {0, 0, 0, 0, 8, 0, 0, 7, 9}
         };
-        long startTime = System.nanoTime(); // Запуск таймера
 
         int[][] solved = sudokuSolver.sudoku(puzzle);
 
-        long endTime = System.nanoTime(); // Время после выполнения
-
-        long duration = endTime - startTime; // Вычисление длительности в наносекундах
-        System.out.println("Time taken: " + duration + " nanoseconds.");
-
-        // Print the solved Sudoku
         for (int[] row : solved) {
             for (int num : row) {
                 System.out.print(STR."\{num} ");
