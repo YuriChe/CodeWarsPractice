@@ -5,17 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="397e60c3-1645-441a-9a39-94050c433b6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/practice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/practice/kyu5/BenchmarkSudokuSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/practice/kyu5/SudokuSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/practice/kyu5/SudokuSolver3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practice/kyu5/MixUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practice/kyu5/ranking_system/RankingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practice/kyu5/secret/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practice/kyu5/secret/DFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practice/kyu5/secret/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practice/kyu5/secret/SecretDecv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practice/kyu5/secret/SecretDecv3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practice/kyu5/secret/SecretDetective.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practice/kyu5/secret/SecretDevv4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practice/kyu5/secret/SecretWordByTriplets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practice/kyu5/secret/TopologicalSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/practice/kyu5/BFSTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/practice/kyu5/DFSTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/practice/kyu5/GraphTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/practice/kyu5/TopSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/practice/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +40,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YuriChe&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/YuriChe/CodeWarsPractice&quot;,
+    &quot;accountId&quot;: &quot;a862bdf9-e1f8-462a-aac1-76bf3edc1dd8&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2tgQ0suw4pOu2R5zRpD3P9q3I60" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,17 +65,42 @@
   "keyToString": {
     "Application.BenchmarkSudokuSolver.executor": "Run",
     "Application.BenchmarkSudokuSolver3.executor": "Run",
+    "Application.Graph.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.SS.executor": "Run",
+    "Application.SecretDecv2.executor": "Run",
+    "Application.SecretDecv3.executor": "Run",
+    "Application.SecretDetective.executor": "Run",
+    "Application.SecretWordByTriplets.executor": "Run",
+    "Application.SecretWordByTriplets2.executor": "Run",
     "Application.SudokuSolver.executor": "Run",
     "Application.SudokuSolver2.executor": "Run",
     "Application.SudokuSolver3.executor": "Run",
+    "Application.TopologicalSort.executor": "Run",
+    "Application.User.executor": "Run",
+    "JUnit.BFSTest.executor": "Run",
+    "JUnit.DFSTest.executor": "Run",
+    "JUnit.DFSTest.testComplexGraph.executor": "Run",
+    "JUnit.DFSTest.testDirectedGraph.executor": "Run",
+    "JUnit.DFSTest.testInvalidVertex.executor": "Run",
+    "JUnit.DFSTest.testNoPath.executor": "Run",
+    "JUnit.DFSTest.testPathWithCycle.executor": "Run",
+    "JUnit.DFSTest.testSameStartAndEnd.executor": "Run",
+    "JUnit.DFSTest.testSimplePath.executor": "Run",
+    "JUnit.GraphTest.executor": "Run",
+    "JUnit.GraphTest.testBFSroute.executor": "Run",
+    "JUnit.GraphTest.testBFSrouteOne.executor": "Run",
+    "JUnit.GraphTest.testFindFirstWithEmptyGraph.executor": "Run",
+    "JUnit.GraphTest.testToString.executor": "Run",
+    "JUnit.TopSortTest.testTopologicalSort.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/asus/IdeaProjects/CodeWarsPractice/src/test/java"
+    "last_directory_selection": "C:/Users/asus/IdeaProjects/CodeWarsPractice/src/test/java",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -63,13 +108,13 @@
       <recent name="org.practice.kyu5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BenchmarkSudokuSolver">
-    <configuration name="BenchmarkSudokuSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.practice.kyu5.BenchmarkSudokuSolver" />
+  <component name="RunManager" selected="Application.SecretWordByTriplets">
+    <configuration name="SecretWordByTriplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.practice.kyu5.secret.SecretWordByTriplets" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.practice.kyu5.*" />
+          <option name="PATTERN" value="org.practice.kyu5.secret.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BenchmarkSudokuSolver3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.practice.kyu5.BenchmarkSudokuSolver3" />
+    <configuration name="SecretWordByTriplets2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.practice.kyu5.secret.SecretWordByTriplets2" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.practice.kyu5.*" />
+          <option name="PATTERN" value="org.practice.kyu5.secret.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.practice.kyu5.SS" />
+    <configuration name="TopologicalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.practice.kyu5.secret.TopologicalSort" />
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.practice.kyu5.*" />
+          <option name="PATTERN" value="org.practice.kyu5.secret.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,8 +148,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SudokuSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.practice.kyu5.SudokuSolver" />
+    <configuration name="BFSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
@@ -112,12 +156,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.practice.kyu5" />
+      <option name="MAIN_CLASS_NAME" value="org.practice.kyu5.BFSTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SudokuSolver3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.practice.kyu5.SudokuSolver3" />
+    <configuration name="TopSortTest.testTopologicalSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeWars" />
       <extension name="coverage">
         <pattern>
@@ -125,26 +171,23 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.practice.kyu5" />
+      <option name="MAIN_CLASS_NAME" value="org.practice.kyu5.TopSortTest" />
+      <option name="METHOD_NAME" value="testTopologicalSort" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BenchmarkSudokuSolver" />
-        <item itemvalue="Application.SudokuSolver3" />
-        <item itemvalue="Application.SudokuSolver" />
-        <item itemvalue="Application.BenchmarkSudokuSolver3" />
-        <item itemvalue="Application.SS" />
+        <item itemvalue="Application.SecretWordByTriplets" />
+        <item itemvalue="Application.SecretWordByTriplets2" />
+        <item itemvalue="JUnit.TopSortTest.testTopologicalSort" />
+        <item itemvalue="Application.TopologicalSort" />
+        <item itemvalue="JUnit.BFSTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

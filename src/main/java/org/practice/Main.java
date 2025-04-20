@@ -6,10 +6,6 @@ public class Main {
         for (int i = 0; i < 9; i++) {
             int boxRow = i - i % 3;
             System.out.println(boxRow);
-
         }
-
-
-
     }
 }
